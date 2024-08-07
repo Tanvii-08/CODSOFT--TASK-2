@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0a0a0a;
+    
+}
+.navabar {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    background-color:orange;
+    display:inline-block;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+    
+}
+
+
+.navabar ul {
+    overflow: auto;
+    padding-left: 203px;
+}
+
+.navabar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navabar li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 14px 14px;
+    transition: background-colour 0.2s ease-in;
+    transition: color 0.3s ease;
+
+}
+
+.navabar li a:hover {
+    color: rgb(52, 53, 46);
+    font-size: 33px;
+    background-color: whitesmoke;
+}
+.logo{
+    margin-left: -920px;
+    margin-top: 130px;
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2% 11%;
+}
+.homecontent{
+    max-width: 500px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+h2{
+    color: orange;
+    font-size: 40px;
+}
+button{
+     background-color: orange;
+    font-size: 28px;
+    color: #0a0a0a;
+    padding: 15px;
+    margin-right:25px;
+    
+}
+button:hover{
+    font-size: 30px;
+    background-color: whitesmoke;
+    color: orangered;
+}
+img {
+    width: 600px;
+    height: 630px;
+    border-radius: 15%;
+    border-radius: 50%;
+    margin-bottom: 17px;
+    margin-left: 425px;
+    animation: image  5s ease-in-out infinite;
+  
+}
+@keyframes image{
+    0%{
+        transform: translateY(0);
+
+    }
+    50%{
+        transform:translateY(-50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+p{
+    color: antiquewhite;
+    font-size: 28px;
+    display: inline;
+}
+#abt{
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    margin-bottom: 17px;
+    animation: 0s;
+    float: left;
+    margin-left: 55px;
+    margin-top: 8%;
+}
+.abt-content h1{
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 800px;
+   
+}
+hr{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.abt-content h2{
+    font-size: 40px;
+    margin-left: 800px;
+}
+.abt-content p{
+    font-size:35px;
+    margin: 3rem 0 3rem;
+    margin-left: 700px;
+    margin-right: 25px;
+    display: block;
+}
+#Resume1{
+    margin-left: 500px;
+    margin-right: 25px;
+    margin-bottom: 12px;
+    
+}
+.skills h1{
+  
+    line-height: 1.5;
+    margin-left: 800px;
+} 
+.skillcontainer{
+    padding-top: 104px;
+    padding-bottom: 115px;
+    margin-left:350px ;
+}
+.skill{
+    margin-left:10px;
+    height:18px;
+    width: 700px;
+    border-radius: 15px;
+    background-color:orange;
+    
+}
+.skillitems{
+    margin-left: 100px;
+    display:flex;
+    color: antiquewhite;
+    font-size: 30px;
+    align-items: center;
+    font-weight: 400;
+}
+.hundred{
+    width: 700px;
+}
+.fifty{
+    width: 350px;
+  
+}   
+.eighty{
+    width: 680px;
+}
+.seventy{
+    width: 670px;
+}
+.project h1{
+    line-height: 1.5;
+    margin-left: 800px;
+}
+.projects{
+    color: rgb(17, 12, 12);
+    display: inline-flex;
+   
+}
+.project-content{
+    display:grid;
+    margin-left:30px;
+    grid-gap:1px;
+    grid-template-columns:repeat(3,1fr) ;
+    margin-top: 30px;
+}
+.card-body{
+    background-color: orange;
+    border: white 2px solid;
+    height: 430px;
+    width: 325px;
+    
+    padding: 2%;
+
+}
+#title{
+   color:black;
+    margin-left: 35px;
+    
+}
+#bt{
+    color: rgb(0, 0, 0);
+    text-decoration:underline;
+   margin-left: 100px;
+   font-size: 28px;
+}
+.pt{
+margin-left:1px;
+margin-right: 1px;
+background-color: black;
+}
+.card-text{
+    font-size:30px;
+    color: #0a0a0a;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+#one{
+    padding: 12px 12px;
+    margin-left: 10px;
+}
+  #two{
+    padding: 12px 38px;
+    margin-left:10%;
+  }
+  #three{
+    padding: 12px 38px;
+    margin-left:10%;
+  }
+  .social-media{
+    margin-left: 40%;
+  }
+ .social-media a{
+    display: inline-flex;
+   align-items: center; 
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+   background: transparent;
+    border-radius: 50%;
+    color: orange;
+    font-size: 2rem;
+    text-decoration: none;
+    margin:30px 15px 30px 0;
+    border: 2px solid whitesmoke;
+    padding: 15px;
+ } 
+ .cont h1{
+  
+    line-height: 1.5;
+    margin-left: 800px;
+} 
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffd700; 
+}
+.Projects{
+    
+    padding-top: 190px;
+    padding-bottom: 165px;
+}
+.Skilln{
+    padding-top: 185px;
+    padding-bottom: 185px;
+}
+.About{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.Contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.social-media{
+    padding-top: 155px;
+    padding-bottom: 70px;
+}
